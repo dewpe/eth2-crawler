@@ -125,6 +125,7 @@ func (r *queryResolver) GetHeatmapData(ctx context.Context) ([]*model.HeatmapDat
 				Longitude:   peers[i].GeoLocation.Longitude,
 				City:        peers[i].GeoLocation.City,
 				Country:     peers[i].GeoLocation.Country,
+				Ip:          peers[i].IP,
 			})
 		}
 	}

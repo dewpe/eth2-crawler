@@ -36,6 +36,7 @@ type HeatmapData {
 	longitude:   Float!
   city:        String!
   country:     String!
+  ip:          String!
 }
 
 type Query {

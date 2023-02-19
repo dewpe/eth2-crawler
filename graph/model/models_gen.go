@@ -21,6 +21,7 @@ type HeatmapData struct {
 	Longitude   float64 `json:"longitude"`
 	City        string  `json:"city"`
 	Country     string  `json:"country"`
+	Ip		  	string  `json:"ip"`
 }
 
 type NodeStats struct {
